@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(to right, #000000, #434343);
+    width: fit-content;
+    height: fit-content;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+}
+
+.head{
+    font-size: 40px;
+    color: chartreuse;
+    box-shadow: 10px 8px 6px 4px;
+}
+
+.board{
+    color: chartreuse;
+    background: transparent;
+    font-size: 20px;
+    border-radius: 12px;
+    box-shadow: 10px 8px 6px 4px;
+}
+
+.para{
+    color: chartreuse;
+    font-size: 20px;
+    box-shadow: 10px 8px 6px 4px;
+    height: 90px;
+}

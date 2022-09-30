@@ -1,0 +1,40 @@
+body{
+    font-family: monospace;
+    background: linear-gradient(to right, #fdc830, #f37335);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-shadow: 10px 08px 06px 04px;
+    width: 500px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 60px;
+}
+
+.input{
+    background-color: transparent;
+    width: 350px;
+    height: 80px;
+    box-shadow: 06px 04px 02px 00px;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.btn{       
+     background-color: transparent;
+     width: 90px;
+     height: 87px;
+     box-shadow: 06px 04px 02px 00px;
+     color: white;
+    font-size: 90px;
+    }

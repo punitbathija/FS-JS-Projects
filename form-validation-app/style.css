@@ -1,0 +1,18 @@
+body{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+.card{
+    padding: 20px;
+    border: 1px solid black;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+input{
+}
