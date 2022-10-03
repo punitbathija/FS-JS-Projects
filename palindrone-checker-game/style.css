@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    font-family: monospace;
+    background: linear-gradient(to right, #76b852, #8dc26f);
+}
+
+.head{
+    font-size: 50px;
+    color: rgb(3, 58, 3);
+}
+
+.result{
+    font-size: 25px;
+    color: rgb(3, 58, 3);
+}
+
+.re{
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 17px;
+    background-color: transparent;
+}

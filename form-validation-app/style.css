@@ -3,16 +3,51 @@ body{
     align-items: center;
     margin: auto;
     text-align: center;
+    font-family: monospace;
+    background: linear-gradient(to right, #ee9ca7, #ffdde1); 
+}
+
+.head{
+    font-size: 50px;
+    padding: 20px;
+    color: maroon;
 }
 
 .card{
     padding: 20px;
-    border: 1px solid black;
-    width: 600px;
+    width: 700px;
     justify-content: center;
     align-items: center;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+    transition: 0.3s;
 }
 
-input{
+.inputU,.inputE,.inputP,.inputCp{
+    background-color: transparent;
+    width: 100%;
+    margin: 7px;
+    padding: 7px;
+    text-align: center;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    margin: 22px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: transparent;
+    color: maroon;
+    font-size: 25px;    
 }
