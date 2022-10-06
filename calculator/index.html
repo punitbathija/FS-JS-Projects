@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="head">Calculator<span class="bl">🖩</span></h1>
+    <div class="panel">
+        <div class="screen" id="screen">
+        </div>
+        <div class="first-row">
+        <button class="keys" id="keys" value="7" onclick="addToScreen('7')">7</button>
+        <button class="keys" id="keys" value="8" onclick="addToScreen('8')">8</button>
+        <button class="keys" id="keys" value="9" onclick="addToScreen('9')">9</button>
+        </div>
+        <div class="second-row">
+        <button class="keys" id="keys" value="4" onclick="addToScreen('4')">4</button>
+        <button class="keys" id="keys" value="5" onclick="addToScreen('5')">5</button>
+        <button class="keys" id="keys" value="6" onclick="addToScreen('6')">6</button>
+        </div>
+        <div class="third-row">
+        <button class="keys" id="keys" value="1" onclick="addToScreen('1')">1</button>
+        <button class="keys" id="keys" value="2" onclick="addToScreen('2')">2</button>
+        <button class="keys" id="keys" value="3" onclick="addToScreen('3')">3</button>
+        </div>
+        <div class="fourth-row">
+        <button class="keys" id="keys"  value="00"onclick="addToScreen('00')">00</button>
+        <button class="keys" id="keys" value="." onclick="addToScreen('.')">.</button>
+        <button class="keys" id="keys" value="0" onclick="addToScreen('0')">0</button>
+        </div>
+        <div class="fifth-row">
+        <button class="keys" id="clear">CL</button>
+        <button class="keys" id="divide">/</button>
+        <button class="keys" id="multiply">X</button>
+        </div>
+        <div class="sixth-row">
+        <button class="keys" id="minus">-</button>
+        <button class="keys" id="add">+</button>
+        <button class="equals" id="equals">=</button>
+        </div>
+    </div>
+    <script src="./logic.js"></script>
+</body>
+</html>
